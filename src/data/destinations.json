@@ -1,0 +1,836 @@
+[
+  {
+    "id": "hyderabad",
+    "name": "Hyderabad",
+    "state": "Telangana",
+    "tagline": "Historic pearls, regal Nizami architecture, and aromatic culinary heritage",
+    "description": "A captivating blend of 400-year-old Islamic heritage, bustling bazaars around Charminar, and a modern vibrant tech landscape with legendary dum biryani.",
+    "image": "https://images.unsplash.com/photo-1605367031766-22487295775f?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1572445271230-a78b5944a659?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 2200,
+      "balanced": 4500,
+      "comfort": 8800
+    },
+    "indicativeRange": "₹3,500 – ₹6,000 / day",
+    "bestTimeToVisit": "October to March",
+    "primaryInterests": [
+      "heritage",
+      "culture",
+      "food",
+      "nature"
+    ],
+    "highlights": [
+      "Charminar & Laad Bazaar",
+      "Golconda Fort Sound & Light",
+      "Chowmahalla Palace",
+      "Authentic Hyderabadi Biryani"
+    ],
+    "centerCoordinates": {
+      "lat": 17.385,
+      "lng": 78.4867,
+      "precision": "city_center",
+      "addressLabel": "Hyderabad, Telangana"
+    }
+  },
+  {
+    "id": "goa",
+    "name": "Goa",
+    "state": "Goa",
+    "tagline": "Coastal serenity, Portuguese heritage, and vibrant susegad lifestyle",
+    "description": "Beyond sunny shores, explore Latin quarter alleyways of Fontainhas, ancient spice plantations, 17th-century baroque churches, and fresh coastal seafood.",
+    "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1587922546307-776227941871?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 2500,
+      "balanced": 5200,
+      "comfort": 9500
+    },
+    "indicativeRange": "₹4,000 – ₹7,500 / day",
+    "bestTimeToVisit": "November to February",
+    "primaryInterests": [
+      "beaches",
+      "relaxation",
+      "nature",
+      "food",
+      "adventure"
+    ],
+    "highlights": [
+      "Fontainhas Latin Quarter",
+      "Anjuna & Palolem Beaches",
+      "Basilica of Bom Jesus",
+      "Spice Plantation Walk"
+    ],
+    "centerCoordinates": {
+      "lat": 15.4909,
+      "lng": 73.8278,
+      "precision": "city_center",
+      "addressLabel": "Panaji, Goa"
+    }
+  },
+  {
+    "id": "jaipur",
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "tagline": "The Pink City: majestic forts, royal palaces, and artisanal craft traditions",
+    "description": "Immerse in the Rajput grandeur of Amber Fort, the geometric marvel of Jantar Mantar, and bustling bazaars renowned for block-printing and gemstones.",
+    "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 2400,
+      "balanced": 4800,
+      "comfort": 9200
+    },
+    "indicativeRange": "₹3,800 – ₹6,800 / day",
+    "bestTimeToVisit": "October to March",
+    "primaryInterests": [
+      "heritage",
+      "culture",
+      "food",
+      "adventure"
+    ],
+    "highlights": [
+      "Amber Palace & Maota Lake",
+      "Hawa Mahal façade",
+      "City Palace courtyards",
+      "Johari & Bapu Bazaars"
+    ],
+    "centerCoordinates": {
+      "lat": 26.9124,
+      "lng": 75.7873,
+      "precision": "city_center",
+      "addressLabel": "Jaipur, Rajasthan"
+    }
+  },
+  {
+    "id": "munnar",
+    "name": "Munnar",
+    "state": "Kerala",
+    "tagline": "Misty tea estates, emerald valleys, and cool Western Ghats air",
+    "description": "Perched 1,600 metres high in God's Own Country, Munnar offers sprawling emerald tea plantations, rare Nilgiri Tahr sightings, and tranquil mountain vistas.",
+    "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 2100,
+      "balanced": 4400,
+      "comfort": 8400
+    },
+    "indicativeRange": "₹3,200 – ₹5,800 / day",
+    "bestTimeToVisit": "September to March",
+    "primaryInterests": [
+      "nature",
+      "relaxation",
+      "adventure"
+    ],
+    "highlights": [
+      "Kolukkumalai Sunrise Trek",
+      "Eravikulam National Park",
+      "Mattupetty Dam & Lake",
+      "KDHP Tea Museum"
+    ],
+    "centerCoordinates": {
+      "lat": 10.0889,
+      "lng": 77.0595,
+      "precision": "city_center",
+      "addressLabel": "Munnar, Kerala"
+    }
+  },
+  {
+    "id": "varanasi",
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "tagline": "Ancient sacred river ghats, spiritual traditions, and evening Ganga Aarti",
+    "description": "One of the world's oldest continuously inhabited cities, Varanasi pulses with sacred riverside rituals, labyrinthine silk weavers' alleys, and transcendent sunrise boat rides.",
+    "image": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 1900,
+      "balanced": 3900,
+      "comfort": 7800
+    },
+    "indicativeRange": "₹2,800 – ₹5,200 / day",
+    "bestTimeToVisit": "October to March",
+    "primaryInterests": [
+      "heritage",
+      "culture",
+      "relaxation",
+      "food"
+    ],
+    "highlights": [
+      "Dashashwamedh Ghat Evening Aarti",
+      "Subah-e-Banaras Sunrise Boat Ride",
+      "Kashi Vishwanath Temple Corridor",
+      "Sarnath Buddhist Monuments"
+    ],
+    "centerCoordinates": {
+      "lat": 25.3176,
+      "lng": 82.9739,
+      "precision": "city_center",
+      "addressLabel": "Varanasi, Uttar Pradesh"
+    }
+  },
+  {
+    "id": "udaipur",
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "tagline": "The City of Lakes: marble palaces, tranquil waters, and Mewar royalty",
+    "description": "Famed as the Venice of the East, Udaipur enchants with the grand City Palace overlooking Lake Pichola, intricate courtyards, and romantic sunsets over the Aravalli hills.",
+    "image": "https://images.unsplash.com/photo-1615836245337-f5b9b2303f10?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 2400,
+      "balanced": 5000,
+      "comfort": 9800
+    },
+    "indicativeRange": "₹4,000 – ₹7,000 / day",
+    "bestTimeToVisit": "October to March",
+    "primaryInterests": [
+      "heritage",
+      "culture",
+      "relaxation",
+      "food"
+    ],
+    "highlights": [
+      "City Palace & Crystal Gallery",
+      "Lake Pichola Sunset Boat Cruise",
+      "Saheliyon-ki-Bari Gardens",
+      "Bagore Ki Haveli Folk Dance"
+    ],
+    "centerCoordinates": {
+      "lat": 24.5854,
+      "lng": 73.7125,
+      "precision": "city_center",
+      "addressLabel": "Udaipur, Rajasthan"
+    }
+  },
+  {
+    "id": "rishikesh",
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "tagline": "Yoga capital of the world, Himalayan river rapids, and peaceful ashrams",
+    "description": "Nestled in the foothills where the holy Ganga leaves the Himalayas, Rishikesh blends adrenaline-fueled river rafting with serene evening aartis and yoga retreats.",
+    "image": "https://images.unsplash.com/photo-1598890777032-bde835ba27c2?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1600100397608-f010e42f9b36?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 1800,
+      "balanced": 3800,
+      "comfort": 7500
+    },
+    "indicativeRange": "₹2,600 – ₹5,000 / day",
+    "bestTimeToVisit": "September to November & March to May",
+    "primaryInterests": [
+      "adventure",
+      "nature",
+      "relaxation"
+    ],
+    "highlights": [
+      "White Water Rafting on River Ganga",
+      "Triveni Ghat Evening Maha Aarti",
+      "Beatles Ashram (Chaurasi Kutia)",
+      "Neer Garh Waterfall Hike"
+    ],
+    "centerCoordinates": {
+      "lat": 30.0869,
+      "lng": 78.2676,
+      "precision": "city_center",
+      "addressLabel": "Rishikesh, Uttarakhand"
+    }
+  },
+  {
+    "id": "manali",
+    "name": "Manali",
+    "state": "Himachal Pradesh",
+    "tagline": "Snow-dusted peaks, pine forests, and high-altitude mountain passes",
+    "description": "Surrounded by towering Pir Panjal and Dhauladhar ranges in the Beas River valley, Manali is a premier year-round alpine haven for trekkers, adventurers, and nature lovers.",
+    "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1586500036706-41963de24d8b?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 2300,
+      "balanced": 4600,
+      "comfort": 8900
+    },
+    "indicativeRange": "₹3,500 – ₹6,500 / day",
+    "bestTimeToVisit": "October to June",
+    "primaryInterests": [
+      "adventure",
+      "nature",
+      "relaxation"
+    ],
+    "highlights": [
+      "Solang Valley Adventure Sports",
+      "Atal Tunnel & Sissu Day Trip",
+      "Historic Old Manali & Hadimba Temple",
+      "Jogini Waterfall Trail"
+    ],
+    "centerCoordinates": {
+      "lat": 32.2396,
+      "lng": 77.1887,
+      "precision": "city_center",
+      "addressLabel": "Manali, Himachal Pradesh"
+    }
+  },
+  {
+    "id": "leh-ladakh",
+    "name": "Leh-Ladakh",
+    "state": "Ladakh",
+    "tagline": "Dramatic high-altitude moonscapes, turquoise lakes, and Tibetan gompas",
+    "description": "A surreal trans-Himalayan desert region famed for barren mountains, centuries-old Buddhist monasteries, Pangong Tso's changing hues, and the world's highest motorable passes.",
+    "image": "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 2800,
+      "balanced": 5800,
+      "comfort": 10500
+    },
+    "indicativeRange": "₹4,500 – ₹8,000 / day",
+    "bestTimeToVisit": "May to September",
+    "primaryInterests": [
+      "adventure",
+      "nature",
+      "heritage"
+    ],
+    "highlights": [
+      "Pangong Tso Lake Shoreline",
+      "Thiksey & Hemis Monasteries",
+      "Nubra Valley & Hunder Sand Dunes",
+      "Khardung La Pass Viewpoint"
+    ],
+    "centerCoordinates": {
+      "lat": 34.1526,
+      "lng": 77.5771,
+      "precision": "city_center",
+      "addressLabel": "Leh, Ladakh"
+    }
+  },
+  {
+    "id": "ooty",
+    "name": "Ooty",
+    "state": "Tamil Nadu",
+    "tagline": "Queen of Nilgiris: eucalyptus groves, botanical gardens, and toy train",
+    "description": "Nestled in the Blue Mountains at 2,240 metres, Ooty welcomes travelers with verdant rolling tea gardens, pleasant climate, colonial architecture, and the heritage Nilgiri Mountain Railway.",
+    "image": "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 2000,
+      "balanced": 4200,
+      "comfort": 8200
+    },
+    "indicativeRange": "₹3,000 – ₹5,500 / day",
+    "bestTimeToVisit": "October to June",
+    "primaryInterests": [
+      "nature",
+      "relaxation",
+      "food"
+    ],
+    "highlights": [
+      "Nilgiri Mountain Railway Toy Train",
+      "Government Botanical Gardens",
+      "Doddabetta Peak Panorama",
+      "Pykara Lake & Waterfalls"
+    ],
+    "centerCoordinates": {
+      "lat": 11.4102,
+      "lng": 76.695,
+      "precision": "city_center",
+      "addressLabel": "Ooty, Tamil Nadu"
+    }
+  },
+  {
+    "id": "gokarna",
+    "name": "Gokarna",
+    "state": "Karnataka",
+    "tagline": "Untamed Arabian Sea cliffs, crescent beaches, and coastal temple trails",
+    "description": "A tranquil haven on the Konkan coast where forested cliffs plunge directly into pristine Arabian Sea waters, offering scenic beach treks and laid-back coastal vibes.",
+    "image": "https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 1800,
+      "balanced": 3700,
+      "comfort": 7200
+    },
+    "indicativeRange": "₹2,500 – ₹4,800 / day",
+    "bestTimeToVisit": "October to March",
+    "primaryInterests": [
+      "beaches",
+      "relaxation",
+      "nature",
+      "adventure"
+    ],
+    "highlights": [
+      "Om Beach to Half Moon Beach Cliff Trek",
+      "Kudle Beach Sunset Cafes",
+      "Mahabaleshwar Temple Complex",
+      "Paradise Beach Boat Ferry"
+    ],
+    "centerCoordinates": {
+      "lat": 14.5479,
+      "lng": 74.3188,
+      "precision": "city_center",
+      "addressLabel": "Gokarna, Karnataka"
+    }
+  },
+  {
+    "id": "varkala",
+    "name": "Varkala",
+    "state": "Kerala",
+    "tagline": "Red laterite sea cliffs, golden sands, and cliff-top bohemian cafes",
+    "description": "Varkala is famous for its dramatic red sandstone cliff extending over the Arabian Sea, natural mineral water springs, peaceful yoga ashrams, and pristine surfing waves.",
+    "image": "https://images.unsplash.com/photo-1584810359583-96fc3448beaa?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 1900,
+      "balanced": 3900,
+      "comfort": 7600
+    },
+    "indicativeRange": "₹2,800 – ₹5,200 / day",
+    "bestTimeToVisit": "November to March",
+    "primaryInterests": [
+      "beaches",
+      "relaxation",
+      "nature"
+    ],
+    "highlights": [
+      "North Cliff Walk & Sunset Dining",
+      "Papanasam Beach Holy Waters",
+      "Kappil Beach & Edava Backwaters",
+      "Anjengo Fort & Lighthouse"
+    ],
+    "centerCoordinates": {
+      "lat": 8.7379,
+      "lng": 76.7163,
+      "precision": "city_center",
+      "addressLabel": "Varkala, Kerala"
+    }
+  },
+  {
+    "id": "hampi",
+    "name": "Hampi",
+    "state": "Karnataka",
+    "tagline": "Surreal boulder hills, monolithic ruins, and Vijayanagara empire splendour",
+    "description": "A UNESCO World Heritage jewel where colossal granite boulders frame ruined palaces, musical stone pillars, and riverside temples dating to the 14th-century Vijayanagara Empire.",
+    "image": "https://images.unsplash.com/photo-1600100397608-f010e42f9b36?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 1700,
+      "balanced": 3600,
+      "comfort": 7200
+    },
+    "indicativeRange": "₹2,500 – ₹4,800 / day",
+    "bestTimeToVisit": "October to February",
+    "primaryInterests": [
+      "heritage",
+      "culture",
+      "adventure",
+      "nature"
+    ],
+    "highlights": [
+      "Vijaya Vittala Temple & Stone Chariot",
+      "Virupaksha Temple Corbelled Gopuram",
+      "Coracle Boat Ride on Tungabhadra River",
+      "Matanga Hill Sunrise Panorama"
+    ],
+    "centerCoordinates": {
+      "lat": 15.335,
+      "lng": 76.46,
+      "precision": "city_center",
+      "addressLabel": "Hampi, Karnataka"
+    }
+  },
+  {
+    "id": "darjeeling",
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "tagline": "Champagne of teas, Kanchenjunga sunrises, and Himalayan railway",
+    "description": "Perched dramatically along a mountain ridge in West Bengal, Darjeeling offers breathtaking views of Mount Kanchenjunga, heritage tea plantations, and Tibetan monasteries.",
+    "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 2000,
+      "balanced": 4200,
+      "comfort": 8200
+    },
+    "indicativeRange": "₹3,000 – ₹5,600 / day",
+    "bestTimeToVisit": "March to May & October to December",
+    "primaryInterests": [
+      "nature",
+      "food",
+      "relaxation"
+    ],
+    "highlights": [
+      "Tiger Hill Kanchenjunga Sunrise",
+      "Darjeeling Himalayan Railway (Toy Train)",
+      "Happy Valley Tea Estate Tour",
+      "Batasia Loop & War Memorial"
+    ],
+    "centerCoordinates": {
+      "lat": 27.041,
+      "lng": 88.2663,
+      "precision": "city_center",
+      "addressLabel": "Darjeeling, West Bengal"
+    }
+  },
+  {
+    "id": "agra",
+    "name": "Agra",
+    "state": "Uttar Pradesh",
+    "tagline": "Mughal grandeur, the timeless Taj Mahal, and red sandstone citadels",
+    "description": "Located on the banks of the Yamuna River, Agra is home to India's most celebrated architectural wonder—the Taj Mahal—alongside the imposing Agra Fort and Fatehpur Sikri.",
+    "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 2100,
+      "balanced": 4400,
+      "comfort": 8600
+    },
+    "indicativeRange": "₹3,200 – ₹5,800 / day",
+    "bestTimeToVisit": "October to March",
+    "primaryInterests": [
+      "heritage",
+      "culture",
+      "food"
+    ],
+    "highlights": [
+      "Taj Mahal Sunrise Experience",
+      "Agra Fort Red Sandstone Ramparts",
+      "Mehtab Bagh Moonlight Gardens",
+      "Fatehpur Sikri Imperial Complex"
+    ],
+    "centerCoordinates": {
+      "lat": 27.1767,
+      "lng": 78.0081,
+      "precision": "city_center",
+      "addressLabel": "Agra, Uttar Pradesh"
+    }
+  },
+  {
+    "id": "amritsar",
+    "name": "Amritsar",
+    "state": "Punjab",
+    "tagline": "The Golden Temple, profound history, and legendary Punjabi hospitality",
+    "description": "The spiritual and cultural capital of Sikhism, Amritsar inspires travelers with the shimmering Harmandir Sahib, poignant historical sites, and world-famous Punjabi food.",
+    "image": "https://images.unsplash.com/photo-1514222134-b57cbb8ce073?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1609766857041-ed402ea8069a?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 1900,
+      "balanced": 3900,
+      "comfort": 7800
+    },
+    "indicativeRange": "₹2,800 – ₹5,000 / day",
+    "bestTimeToVisit": "October to March",
+    "primaryInterests": [
+      "heritage",
+      "food",
+      "culture"
+    ],
+    "highlights": [
+      "Golden Temple (Harmandir Sahib) & Langar",
+      "Wagah Border Beating Retreat Ceremony",
+      "Jallianwala Bagh Memorial",
+      "Authentic Amritsari Kulcha & Lassi Trail"
+    ],
+    "centerCoordinates": {
+      "lat": 31.62,
+      "lng": 74.8765,
+      "precision": "city_center",
+      "addressLabel": "Amritsar, Punjab"
+    }
+  },
+  {
+    "id": "coorg",
+    "name": "Coorg",
+    "state": "Karnataka",
+    "tagline": "Scotland of India: mist-cloaked coffee estates, spice trails, and Kodava culture",
+    "description": "Known as Kodagu, this picturesque district in Karnataka is famed for aromatic Arabica coffee plantations, cardamom hills, gushing waterfalls, and Kodava culinary traditions.",
+    "image": "https://images.unsplash.com/photo-1600100397608-f010e42f9b36?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 2200,
+      "balanced": 4500,
+      "comfort": 8600
+    },
+    "indicativeRange": "₹3,400 – ₹6,000 / day",
+    "bestTimeToVisit": "October to April",
+    "primaryInterests": [
+      "nature",
+      "relaxation",
+      "food"
+    ],
+    "highlights": [
+      "Coffee & Spice Plantation Walking Tour",
+      "Abbey & Iruppu Waterfalls",
+      "Raja's Seat Sunset Pavilion",
+      "Namdroling Golden Temple (Bylakuppe)"
+    ],
+    "centerCoordinates": {
+      "lat": 12.4244,
+      "lng": 75.7382,
+      "precision": "city_center",
+      "addressLabel": "Madikeri (Coorg), Karnataka"
+    }
+  },
+  {
+    "id": "pondicherry",
+    "name": "Pondicherry",
+    "state": "Puducherry",
+    "tagline": "French colonial villas, coastal promenades, and spiritual universal town",
+    "description": "A charming seaside union territory featuring pastel French Quarter streets, tranquil beaches, chic bakeries, and the international experimental community of Auroville.",
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 2100,
+      "balanced": 4300,
+      "comfort": 8400
+    },
+    "indicativeRange": "₹3,200 – ₹5,800 / day",
+    "bestTimeToVisit": "October to March",
+    "primaryInterests": [
+      "beaches",
+      "heritage",
+      "relaxation",
+      "food"
+    ],
+    "highlights": [
+      "White Town French Colonial Heritage Walk",
+      "Auroville Matrimandir & Visitor Centre",
+      "Rock Beach Waterfront Promenade",
+      "Paradise Beach Ferry Crossing"
+    ],
+    "centerCoordinates": {
+      "lat": 11.9416,
+      "lng": 79.8083,
+      "precision": "city_center",
+      "addressLabel": "Puducherry"
+    }
+  },
+  {
+    "id": "andaman",
+    "name": "Andaman (Havelock)",
+    "state": "Andaman & Nicobar",
+    "tagline": "Pristine white coral beaches, turquoise lagoons, and marine reefs",
+    "description": "Swaraj Dweep (Havelock) is the crown jewel of the Andaman Islands, celebrated globally for Radhanagar Beach, vibrant coral reefs, and scuba diving in crystal-clear waters.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 3000,
+      "balanced": 6200,
+      "comfort": 11500
+    },
+    "indicativeRange": "₹5,000 – ₹9,000 / day",
+    "bestTimeToVisit": "October to May",
+    "primaryInterests": [
+      "beaches",
+      "adventure",
+      "nature",
+      "relaxation"
+    ],
+    "highlights": [
+      "Radhanagar Beach Sunset (Asia's Best Beach)",
+      "Elephant Beach Snorkelling & Water Sports",
+      "Kalapathar Beach Coral Sands",
+      "Scuba Diving at Barefoot Reefs"
+    ],
+    "centerCoordinates": {
+      "lat": 11.9761,
+      "lng": 92.9876,
+      "precision": "city_center",
+      "addressLabel": "Havelock Island, Andaman"
+    }
+  },
+  {
+    "id": "kaziranga",
+    "name": "Kaziranga",
+    "state": "Assam",
+    "tagline": "Brahmaputra grasslands, one-horned rhinos, and wild biodiversity",
+    "description": "A UNESCO World Heritage sanctuary along the mighty Brahmaputra River, Kaziranga holds the world's largest population of the great Indian one-horned rhinoceros.",
+    "image": "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 2400,
+      "balanced": 4800,
+      "comfort": 9200
+    },
+    "indicativeRange": "₹3,800 – ₹6,800 / day",
+    "bestTimeToVisit": "November to April",
+    "primaryInterests": [
+      "nature",
+      "adventure"
+    ],
+    "highlights": [
+      "Central Range Elephant Safari",
+      "Western Range Jeep Wildlife Safari",
+      "Assam Tea Estate & Orchid Park Walk",
+      "Brahmaputra River Dolphin Watch"
+    ],
+    "centerCoordinates": {
+      "lat": 26.5775,
+      "lng": 93.1711,
+      "precision": "city_center",
+      "addressLabel": "Kaziranga, Assam"
+    }
+  },
+  {
+    "id": "jim-corbett",
+    "name": "Jim Corbett",
+    "state": "Uttarakhand",
+    "tagline": "India's oldest national park, Royal Bengal tigers, and Ramganga forests",
+    "description": "Spanning lush sal forests and riverine belts in the Shivalik foothills, Corbett National Park is India's pioneer tiger reserve offering thrilling wildlife safaris.",
+    "image": "https://images.unsplash.com/photo-1549366021-9f761d450615?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 2500,
+      "balanced": 5200,
+      "comfort": 9600
+    },
+    "indicativeRange": "₹4,000 – ₹7,200 / day",
+    "bestTimeToVisit": "November to June",
+    "primaryInterests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "highlights": [
+      "Dhikala Zone Jeep Tiger Safari",
+      "Bijrani Grasslands Safari Trail",
+      "Corbett Falls & Nature Walk",
+      "Kosi River Pebble Promenade"
+    ],
+    "centerCoordinates": {
+      "lat": 29.3909,
+      "lng": 79.1288,
+      "precision": "city_center",
+      "addressLabel": "Ramnagar (Jim Corbett), Uttarakhand"
+    }
+  },
+  {
+    "id": "shillong",
+    "name": "Shillong",
+    "state": "Meghalaya",
+    "tagline": "Scotland of the East: roaring waterfalls, pine hills, and living root bridges",
+    "description": "The capital of Meghalaya, Shillong is celebrated for its cool highland climate, crystal-clear streams, vibrant indie music scene, and day trips to Cherrapunji's living root bridges.",
+    "image": "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 2100,
+      "balanced": 4400,
+      "comfort": 8500
+    },
+    "indicativeRange": "₹3,300 – ₹5,900 / day",
+    "bestTimeToVisit": "September to May",
+    "primaryInterests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "highlights": [
+      "Umiam Lake Water Sports & Viewpoint",
+      "Elephant Falls & Shillong Peak",
+      "Day Trip to Cherrapunji Root Bridges",
+      "Police Bazar Khasi Street Food"
+    ],
+    "centerCoordinates": {
+      "lat": 25.5788,
+      "lng": 91.8933,
+      "precision": "city_center",
+      "addressLabel": "Shillong, Meghalaya"
+    }
+  },
+  {
+    "id": "jaisalmer",
+    "name": "Jaisalmer",
+    "state": "Rajasthan",
+    "tagline": "The Golden City: living desert fort, yellow sandstone havelis, and Thar dunes",
+    "description": "Rising straight out of the golden sands of the Thar Desert, Jaisalmer's living fort houses bustling alleys, ornate Jain temples, and sunset camel treks across Sam Sand Dunes.",
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 2200,
+      "balanced": 4600,
+      "comfort": 8800
+    },
+    "indicativeRange": "₹3,500 – ₹6,200 / day",
+    "bestTimeToVisit": "October to March",
+    "primaryInterests": [
+      "heritage",
+      "adventure",
+      "culture"
+    ],
+    "highlights": [
+      "Jaisalmer Golden Fort Living Citadel",
+      "Sam Sand Dunes Sunset Camel Safari",
+      "Patwon Ki Haveli Filigree Architecture",
+      "Gadisar Lake Desert Sunset"
+    ],
+    "centerCoordinates": {
+      "lat": 26.9157,
+      "lng": 70.9083,
+      "precision": "city_center",
+      "addressLabel": "Jaisalmer, Rajasthan"
+    }
+  },
+  {
+    "id": "kodaikanal",
+    "name": "Kodaikanal",
+    "state": "Tamil Nadu",
+    "tagline": "Princess of Hill Stations: star-shaped lake, pine forests, and cool mist",
+    "description": "Nestled in the Palani Hills of Tamil Nadu, Kodaikanal offers a peaceful sanctuary of star-shaped lake boat rides, pine forest canopy walks, and dramatic cliff-edge views.",
+    "image": "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 2000,
+      "balanced": 4200,
+      "comfort": 8200
+    },
+    "indicativeRange": "₹3,000 – ₹5,500 / day",
+    "bestTimeToVisit": "September to May",
+    "primaryInterests": [
+      "nature",
+      "relaxation"
+    ],
+    "highlights": [
+      "Kodai Lake Pedal Boat Rides",
+      "Coaker's Walk Valley Vistas",
+      "Pillar Rocks & Guna Caves",
+      "Pine Forest Canopy Trails"
+    ],
+    "centerCoordinates": {
+      "lat": 10.2381,
+      "lng": 77.4892,
+      "precision": "city_center",
+      "addressLabel": "Kodaikanal, Tamil Nadu"
+    }
+  },
+  {
+    "id": "puri",
+    "name": "Puri",
+    "state": "Odisha",
+    "tagline": "Golden Bay of Bengal beaches, Jagannath temple heritage, and artisan villages",
+    "description": "On the shores of the Bay of Bengal, Puri combines the timeless grandeur of the 12th-century Jagannath Temple with golden sand beaches and proximity to the Sun Temple at Konark.",
+    "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1000&q=80",
+    "fallbackImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+    "indicativeDailyCost": {
+      "budget": 1800,
+      "balanced": 3800,
+      "comfort": 7400
+    },
+    "indicativeRange": "₹2,600 – ₹5,000 / day",
+    "bestTimeToVisit": "October to March",
+    "primaryInterests": [
+      "beaches",
+      "heritage",
+      "culture",
+      "relaxation"
+    ],
+    "highlights": [
+      "Golden Beach Blue Flag Promenade",
+      "Jagannath Temple Heritage Enclave",
+      "Konark Sun Temple Architectural Wonder",
+      "Raghurajpur Heritage Pattachitra Crafts Village"
+    ],
+    "centerCoordinates": {
+      "lat": 19.8135,
+      "lng": 85.8312,
+      "precision": "city_center",
+      "addressLabel": "Puri, Odisha"
+    }
+  }
+]
