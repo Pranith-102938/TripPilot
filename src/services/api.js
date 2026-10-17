@@ -2,8 +2,11 @@
  * TripPilot Frontend API Client
  * Centralized service for communicating with the FastAPI backend.
  */
-
-const API_BASE = '/api';
+// Resolve API base URL: supports optional VITE_API_BASE_URL for production while preserving local /api proxy
+const RAW_BASE_URL = (import.meta.env?.VITE_API_BASE_URL || '').trim().replace(/\/+$/, '');
+const API_BASE = RAW_BASE_URL
+  ? (RAW_BASE_URL.endsWith('/api') ? RAW_BASE_URL : `${RAW_BASE_URL}/api`)
+  : '/api';
 
 /**
  * Helper to process API responses and format useful error messages.

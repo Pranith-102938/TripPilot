@@ -1,6 +1,11 @@
+import os
 import logging
 from typing import List, Optional
 from pydantic import BaseModel, Field, ConfigDict
+from dotenv import load_dotenv
+
+# Load local environment configuration from .env before services initialize
+load_dotenv()
 
 from fastapi import FastAPI, HTTPException, status, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -63,13 +68,24 @@ app = FastAPI(
     redoc_url="/redoc"
 )
 
-# Explicitly allowed local development origins (safe CORS configuration)
-ALLOWED_ORIGINS = [
+# Explicitly allowed local development origins
+DEFAULT_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
 ]
+
+# Parse additional CORS origins from environment variable (comma-separated, without wildcards)
+cors_env = os.getenv("CORS_ORIGINS", "")
+configured_origins = [
+    origin.strip().rstrip("/")
+    for origin in cors_env.split(",")
+    if origin.strip() and origin.strip() != "*"
+]
+
+# Combine and deduplicate preserving insertion order
+ALLOWED_ORIGINS = list(dict.fromkeys(DEFAULT_ALLOWED_ORIGINS + configured_origins))
 
 app.add_middleware(
     CORSMiddleware,
