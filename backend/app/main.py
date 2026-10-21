@@ -68,30 +68,38 @@ app = FastAPI(
     redoc_url="/redoc"
 )
 
-# Explicitly allowed local development origins
+# Explicitly allowed production and local development origins
 DEFAULT_ALLOWED_ORIGINS = [
+    "https://trippilot-web.onrender.com",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
 ]
 
-# Parse additional CORS origins from environment variable (comma-separated, without wildcards)
-cors_env = os.getenv("CORS_ORIGINS", "")
-configured_origins = [
-    origin.strip().rstrip("/")
-    for origin in cors_env.split(",")
-    if origin.strip() and origin.strip() != "*"
-]
 
-# Combine and deduplicate preserving insertion order
-ALLOWED_ORIGINS = list(dict.fromkeys(DEFAULT_ALLOWED_ORIGINS + configured_origins))
+def resolve_cors_origins(extra_origins_str: Optional[str] = None) -> List[str]:
+    """Resolves allowed CORS origins from defaults and an optional comma-separated string.
+
+    Trims whitespace, strips trailing slashes, excludes wildcards, and preserves order.
+    """
+    raw = extra_origins_str if extra_origins_str is not None else os.getenv("CORS_ORIGINS", "")
+    configured = []
+    if raw:
+        for item in raw.split(","):
+            cleaned = item.strip().rstrip("/")
+            if cleaned and cleaned != "*":
+                configured.append(cleaned)
+    return list(dict.fromkeys(DEFAULT_ALLOWED_ORIGINS + configured))
+
+
+ALLOWED_ORIGINS = resolve_cors_origins()
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=ALLOWED_ORIGINS,
     allow_credentials=True,
-    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_methods=["*"],
     allow_headers=["*"],
 )
 
